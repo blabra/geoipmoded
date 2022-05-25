@@ -58,6 +58,16 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
+        "outputName": "geoip-cloudflare.dat",
+        "wantedList": [
+          "cloudflare"
+          ]
+      }
+    },
+    {
+      "type": "v2rayGeoIPDat",
+      "action": "output",
+      "args": {
         "outputName": "geoip-asn.dat",
         "wantedList": [
           "cloudflare",
